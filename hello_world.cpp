@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void hello_world();
@@ -12,7 +13,8 @@ int main()
 
 void hello_world()
 {
-	cout << "Hello world!\n";
+	string hello_world = "Hello world!\n"
+	cout << hello_world;
 
 	return;
 }
