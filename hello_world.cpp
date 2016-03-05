@@ -13,7 +13,7 @@ int main()
 
 void hello_world()
 {
-	string hello_world = "Hello world!\n"
+	string hello_world = "Hello world!\n";
 	cout << hello_world;
 
 	return;
